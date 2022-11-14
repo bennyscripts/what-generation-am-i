@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+#age-input {
+    border: none;
+    font-size: 3em;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+
+#age-input:focus {
+    outline: none;
+}
+
+#age-input::placeholder {
+    color: rgb(160, 160, 160);
+}
+
+#use-again {
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: rgb(160, 160, 160);
+    font-weight: 300;
+    font-style: italic;
+    display: none;
+}
